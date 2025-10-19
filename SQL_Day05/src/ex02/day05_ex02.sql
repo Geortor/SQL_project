@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_person_name ON person(UPPER(name))
